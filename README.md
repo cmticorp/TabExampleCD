@@ -1,2 +1,3 @@
 # TabExampleCD
 Tabbed IOS example that uses core data.
+This application shows how to incorporate an initial tab controller that branches out to multiple table view controllers. It is also an example of how to use core data to save data and retrieve it to populate a table view. Important code exists in the appdelegate file that enables core data to work. The tableview cell has important code which makes the table view that displays the item work. You have to make sure to use the import CoreData statement at the beginning or your view controllers that use it. And make sure you declare similar variables found at the top of the classes.
